@@ -13,7 +13,7 @@ export default function CartItem({id, quantity}:CartItemProps) {
         if(item == null) return null
         return (
                 <Stack direction='horizontal' gap={2}>
-                        <Image src={item.imgUrl} width={125} height={75} rounded  style={{objectFit:"cover"}}/>
+                        <Image src={`/${item.imgUrl}`} width={125} height={75} rounded  style={{objectFit:"cover"}}/>
                         <div className="me-auto" style={{fontWeight:"500"}}>
                                 <div>
                                         {item.name} <span className='text-muted' style={{fontSize:".75rem"}}>x{quantity}</span>
