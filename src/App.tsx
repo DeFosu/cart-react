@@ -12,9 +12,9 @@ export default function App() {
     <Navbar />
     <Container className='mb-4 h-100'>
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/store" element={<Store/>} />
-        <Route path="/about" element={<About/>} />
+        <Route path="cart-react/" element={<Home/>} />
+        <Route index path="cart-react/store" element={<Store/>} />
+        <Route path="cart-react/about" element={<About/>} />
       </Routes>
     </Container>
   </ShoppingCartProvider>

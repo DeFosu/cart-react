@@ -13,9 +13,9 @@ export default function Navbar() {
         <Container>
                 <Nav className='me-auto' style={{fontSize:"1.4rem",
                                                  fontWeight:'800'}}>
-                        <Nav.Link to="/" as={NavLink} >Home</Nav.Link>   
-                        <Nav.Link to="/store" as={NavLink} >Store</Nav.Link>   
-                        <Nav.Link to="/about" as={NavLink} >About</Nav.Link>   
+                        <Nav.Link to="cart-react/" as={NavLink} >Home</Nav.Link>   
+                        <Nav.Link to="cart-react/store" as={NavLink} >Store</Nav.Link>   
+                        <Nav.Link to="cart-react/about" as={NavLink} >About</Nav.Link>   
 
                 </Nav>
                 <Button variant="dark" onClick={openCart} style={{position:"relative"}}>
