@@ -19,7 +19,7 @@ export default function StoreItem({id, name, price, imgUrl}:StoreItemProps) {
 
 return (
         <Card key={id} className='h-100'>
-                <Card.Img variant="top" src={`/${imgUrl}`} height="200px" style={{objectFit:"cover"}}/>
+                <Card.Img variant="top" src={`${imgUrl}`} height="200px" style={{objectFit:"cover"}}/>
                 <Card.Body className='d-flex align-items-top justify-content-between'>
                         <Card.Title >{name}</Card.Title>
                         <Card.Subtitle>{formatCurrentcy(price)}</Card.Subtitle>
