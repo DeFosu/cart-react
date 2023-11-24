@@ -6,6 +6,7 @@ import About from './pages/About'
 import Home from './pages/Home'
 import Store from './pages/Store'
 
+
 export default function App() {
   return (
   <ShoppingCartProvider>
